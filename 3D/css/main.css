@@ -1,0 +1,32 @@
+/* This will get rid of weird whitespace between navbar and jumbo */
+.navbar {
+    margin-bottom: 0;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*.nav li {
+    display: inline;
+}*/
+
+.jumbotron {
+    background-image: url("../res/Gears.jpg");
+    height: 400px;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.jumbotron p {
+    font-weight: bold;
+    color: white;
+}
